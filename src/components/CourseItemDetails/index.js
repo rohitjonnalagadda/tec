@@ -93,10 +93,6 @@ class CourseItemDetails extends Component {
     return (
       <div className="details-view-container">
         <img src={imageUrl} alt={name} />
-        <NameDescriptionContainer>
-          <CourseName>{name}</CourseName>
-          <CourseDescription>{description}</CourseDescription>
-        </NameDescriptionContainer>
       </div>
     )
   }
